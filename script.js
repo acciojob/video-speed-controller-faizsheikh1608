@@ -14,6 +14,8 @@ playButton.classList.add('player__button', 'toggle');
 playButton.textContent = '►';
 
 rewindButton.textContent = '« 10s';
+rewindButton.classList.add('rewind');
+
 forwardButton.textContent = '25s »';
 
 volumeInput.type = 'range';
