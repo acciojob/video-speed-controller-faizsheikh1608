@@ -9,7 +9,8 @@ const progressBar = document.createElement('div');
 const progressFilled = document.createElement('div');
 
 // Add necessary attributes and classes
-playButton.classList.add('player__button');
+playButton.classList.add('player__button', 'toggle');
+
 playButton.textContent = '►';
 
 rewindButton.textContent = '« 10s';
